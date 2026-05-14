@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ECLAT Collection</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+<header class="header">
+
+  <div class="logo">ECLAT</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="collection.html">Collection</a>
+    <a href="interactive.html">Interactive</a>
+  </nav>
+
+</header>
+
+<section class="page-title collection-title">
+
+  <h1>ECLAT Collection</h1>
+
+  <p>
+    Hailey Bieber inspired looks, Kendall Jenner model-off-duty outfits and quiet luxury styling.
+  </p>
+
+</section>
+
+<section class="content-section">
+
+  <h2>Fashion Gallery</h2>
+
+  <p class="section-description">
+    Click on any image to enlarge it. Use the buttons to fade the gallery in and out.
+  </p>
+
+  <div class="gallery">
+
+    <img class="thumb" src="images/hailey-1.jpg" alt="Hailey Bieber inspired style">
+
+    <img class="thumb" src="images/kendall-1.jpg" alt="Kendall Jenner inspired style">
+
+    <img class="thumb" src="images/hailey-2.jpg" alt="Hailey Bieber second inspired style">
+
+    <img class="thumb" src="images/kendall-2.jpg" alt="Kendall Jenner second inspired style">
+
+  </div>
+
+  <button id="galleryFadeOut">Fade Out Gallery</button>
+  <button id="galleryFadeIn">Fade In Gallery</button>
+  <button id="galleryReset">Reset Gallery</button>
+
+</section>
+
+<section class="content-section dark-section">
+
+  <h2>Accordion Style Guide</h2>
+
+  <div class="accordion">
+
+    <div class="accordion-title">
+      Hailey Bieber Inspired
+    </div>
+
+    <div class="accordion-content">
+      Hailey Bieber style is connected with oversized blazers, sunglasses, straight jeans,
+      simple tops, gold jewelry and clean girl aesthetic.
+    </div>
+
+    <div class="accordion-title">
+      Kendall Jenner Inspired
+    </div>
+
+    <div class="accordion-content">
+      Kendall Jenner style is usually model-off-duty: basic tops, leather jackets,
+      straight trousers, simple bags and confident streetwear.
+    </div>
+
+    <div class="accordion-title">
+      Quiet Luxury
+    </div>
+
+    <div class="accordion-content">
+      Quiet luxury focuses on neutral colors, elegant silhouettes, minimal accessories
+      and high-quality-looking basics.
+    </div>
+
+  </div>
+
+</section>
+
+<section class="content-section">
+
+  <h2>DOM Fashion List</h2>
+
+  <p class="section-description">
+    This list uses append, prepend, remove and sorting with jQuery.
+  </p>
+
+  <ul id="fashionList">
+    <li>Oversized blazer</li>
+    <li>Straight blue jeans</li>
+    <li>White tank top</li>
+  </ul>
+
+  <button id="appendItem">Add Item</button>
+  <button id="prependItem">Add Item First</button>
+  <button id="removeItem">Remove Last</button>
+  <button id="sortItems">Sort List</button>
+
+</section>
+
+<section class="content-section">
+
+  <h2>Fashion Cards</h2>
+
+  <div class="cards">
+
+    <div class="card">
+
+      <img src="images/hailey-1.jpg" alt="Hailey Bieber inspired outfit">
+
+      <h3>Hailey Inspired</h3>
+
+      <p>
+        Clean girl aesthetic with neutral basics, blazer, sunglasses and polished accessories.
+      </p>
+
+      <button class="likeBtn">Like</button>
+
+      <p class="likeText">Likes: 0</p>
+
+    </div>
+
+    <div class="card">
+
+      <img src="images/kendall-1.jpg" alt="Kendall Jenner inspired outfit">
+
+      <h3>Kendall Inspired</h3>
+
+      <p>
+        Model-off-duty style with simple clothes, clean lines and confident attitude.
+      </p>
+
+      <button class="likeBtn">Like</button>
+
+      <p class="likeText">Likes: 0</p>
+
+    </div>
+
+    <div class="card">
+
+      <img src="images/quiet-luxury.jpg" alt="Quiet luxury outfit">
+
+      <h3>Quiet Luxury</h3>
+
+      <p>
+        Minimal, elegant and expensive-looking fashion mood with calm colors.
+      </p>
+
+      <button class="likeBtn">Like</button>
+
+      <p class="likeText">Likes: 0</p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section class="content-section editorial-section">
+
+  <h2>Runway Inspiration</h2>
+
+  <img class="wide-image" src="images/runway-style.png" alt="Runway style">
+
+  <p>
+    Runway fashion gives ECLAT a stronger editorial atmosphere and makes the website look more professional.
+  </p>
+
+</section>
+
+<footer>
+  <p>Created by Aksana, Aida A</p>
+  <p>ECLAT Fashion Website | Assignment 5</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

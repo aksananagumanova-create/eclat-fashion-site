@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ECLAT Interactive</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+<header class="header">
+
+  <div class="logo">ECLAT</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="collection.html">Collection</a>
+    <a href="interactive.html">Interactive</a>
+  </nav>
+
+</header>
+
+<section class="page-title interactive-title">
+
+  <h1>Interactive Fashion Studio</h1>
+
+  <p>
+    jQuery animations, guessing game, form validation, to-do list and date/time display.
+  </p>
+
+</section>
+
+<section class="content-section">
+
+  <h2>Animation Square</h2>
+
+  <p class="section-description">
+    This part demonstrates jQuery animate method with size, movement and opacity.
+  </p>
+
+  <div class="animation-area">
+
+    <div id="squareBox"></div>
+
+  </div>
+
+  <button id="animateOne">Animate Square</button>
+  <button id="animateSteps">Step Animation</button>
+  <button id="animateCombo">Combo Animation</button>
+  <button id="resetSquare">Reset</button>
+
+</section>
+
+<section class="content-section dark-section">
+
+  <h2>Bouncing Ball</h2>
+
+  <p class="section-description">
+    The ball moves across the screen and returns back using chained animations.
+  </p>
+
+  <div class="ball-area">
+
+    <div id="ball"></div>
+
+  </div>
+
+  <button id="bounceBall">Start Ball</button>
+  <button id="resetBall">Reset Ball</button>
+
+</section>
+
+<section class="content-section">
+
+  <h2>Guessing Game</h2>
+
+  <p>
+    Guess a number from 1 to 10.
+  </p>
+
+  <input type="number" id="guessInput" placeholder="Enter number">
+
+  <button id="guessBtn">Check Number</button>
+  <button id="newGameBtn">New Game</button>
+
+  <p id="gameResult">
+    Game result will appear here.
+  </p>
+
+</section>
+
+<section class="content-section dark-section">
+
+  <h2>Fashion Contact Form</h2>
+
+  <form id="contactForm">
+
+    <input type="text" id="nameInput" placeholder="Your name">
+
+    <input type="email" id="emailInput" placeholder="Your email">
+
+    <textarea id="messageInput" placeholder="Your fashion message"></textarea>
+
+    <button type="submit">Submit</button>
+
+  </form>
+
+  <p id="formResult"></p>
+
+</section>
+
+<section class="content-section">
+
+  <h2>Date and Time</h2>
+
+  <p id="dateTimeText">
+    Click the button to show current date and time.
+  </p>
+
+  <button id="dateTimeBtn">Show Date and Time</button>
+
+</section>
+
+<section class="content-section dark-section">
+
+  <h2>Fashion To-Do List</h2>
+
+  <p>
+    Add styling tasks. Click on a task to mark it as completed.
+  </p>
+
+  <input type="text" id="todoInput" placeholder="Add fashion task">
+
+  <button id="addTodoBtn">Add Task</button>
+  <button id="clearTodoBtn">Clear Tasks</button>
+
+  <ul id="todoList"></ul>
+
+</section>
+
+<footer>
+  <p>Created by Aksana, Aida A</p>
+  <p>ECLAT Fashion Website | Assignment 5</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
